@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">FamousYoutuber</string>
+    <string name="title">title</string>
+    <string name="subTitle">subtitle</string>
+    <string name="Nama">Nama</string>
+    <string name="lahir">TGL</string>
+    <string name="ABOUT">ABOUT</string>
+    <string name="Namasaya">Nama Saya Muhammad Fadhlan Wahyudi</string>
+    <string name="lahirsaya">Bekasi, 21 Juni 2006</string>
+</resources>
