@@ -10,7 +10,11 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".AboutActivity"></activity>
-        <activity android:name=".DetailMovie" />
+        <activity android:name=".DetailMovie" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ListYoutuber" />
+        </activity>
         <activity android:name=".ListYoutuber" />
         <activity android:name=".MainActivity">
             <intent-filter>
