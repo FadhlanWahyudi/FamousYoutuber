@@ -7,11 +7,11 @@
     android:orientation="vertical"
     tools:context=".DetailMovie">
 
-    <android.support.v7.widget.CardView
+   <android.support.v7.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="400dp"
         >
-        <LinearLayout
+        <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical">
@@ -21,29 +21,43 @@
                 android:layout_width="170dp"
                 android:layout_height="170dp"
                 android:layout_gravity="top"
-                android:layout_marginLeft="100dp"
-                android:layout_marginTop="10dp"
+                android:layout_marginLeft="130dp"
+                android:layout_marginTop="40dp"
                 android:src="@drawable/saya"/>
 
             <TextView
+                android:textStyle="bold"
+                android:layout_centerInParent="true"
+                android:layout_below="@+id/gambar"
                 android:id="@+id/nama"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginTop="20dp"
-                android:textSize="20sp"
+                android:textSize="18sp"
+                android:layout_marginBottom="10dp"
                 android:text="@string/Namasaya"/>
 
             <TextView
+                android:layout_centerInParent="true"
+                android:layout_below="@+id/nama"
                 android:id="@+id/tgl"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:layout_marginTop="20dp"
-                android:textSize="20sp"
+                android:textSize="16sp"
                 android:text="@string/lahirsaya"/>
+            
+            <View
+                android:layout_marginTop="30dp"
+                android:layout_centerInParent="true"
+                android:layout_below="@+id/tgl"
+                android:layout_width="100dp"
+                android:layout_height="1dp"
+                android:background="#000000"
+                />
 
-        </LinearLayout>
+        </RelativeLayout>
 
 
 
